@@ -5,6 +5,8 @@
  */
 package algoritmospo;
 
+import src.Arquivo_Java;
+
 /**
  *
  * @author Gomes
@@ -15,7 +17,8 @@ public class AlgoritmosPO {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Arquivo_Java a = new Arquivo_Java("arquivo.dat");
+        a.executa();
     }
     
 }
